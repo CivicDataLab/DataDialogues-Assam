@@ -24,3 +24,151 @@ xaringanExtra::use_fit_screen()
 ```{r xaringan-tile-view, echo=FALSE}
 xaringanExtra::use_tile_view()
 ```
+
+class: centre, middle
+
+# Part 1 - Tracking laws using data
+
+---
+
+# Tracking child protection related legislation
+
+It leads to:
+
+1. Institutional Accountability
+2. Identification of gaps and challenges in law enforcement practices by various departments
+3. Data driven, evidence based amendments to laws and policies
+4. Better impact assessment of laws 
+5. Efficient courts
+6. **Timely Justice**
+
+---
+
+# Data for tracking child-protection related laws
+
+1. The [Crime in India](https://ncrb.gov.in/en/crime-india) reports released by the National Crime Records Bureau are an important resource for researchers
+2. The datasets are made available to the public via NCRB's website and also through [data.gov.in](https://data.gov.in/) 
+3. The indicators within these datasets are aggregated at a state and district level and are also made available for certain metropolitan cities
+4. NCRB started computing data for cases registered under the POCSO Act from 2014 onwards
+5. The latest data available on the NCRB website is from 2020.  
+
+---
+
+# Child Protection indicators in the NCRB dataset
+
+For Persons Arrested
+
+For Courts
+
+For Police
+
+---
+
+# Is data from NCRB enough to track laws
+
+.pull-left[
+
+**Where it helps**
+
+]
+
+.pull-right[
+
+- Principal offence rule
+**Where it doesn't**
+
+
+]
+
+---
+
+# Other public data sources can be used to track laws
+
+Data maintained by courts is an important resource that can help us track laws
+
+A few important features of data maintained by courts:
+
+1. **Granularity** - Data is available for each case
+2. **Timeliness** - Data is available on a near real-time basis
+3. **Coverage** - Data is available in a standard format across all courts
+4. **Ease of access** - Data for any case can be easily accessed through the e-Courts portal
+5. **Availability of tools and resources** - Platforms like the [National Judicial Data Grid](https://njdg.ecourts.gov.in/njdgnew/index.php) can be used to explore and analyse data curated by courts
+
+---
+
+# Challenges of accessing data from courts
+
+The data from courts is a useful resource but to really be able to use it, one has to face multiple challenges. These are: 
+
+1. Accessing or downloading cases in bulk
+2. Data curation practices differ across courts and hence the data is not standaridsed
+3. Hard to identify cases registered under a particular act or section beucase of data standardisation issues
+4. The dataset especially the orders and judgets, if available, might contain a lot of sensitive information which makes it harder for anyone to share this dataset as a common resource
+5. Data completeness related issues - A lot of times, important fields are not available. 
+6. Information for older cases might be harder to obtain for certain courts. 
+
+---
+class: center, middle
+
+# Indicators available for each case on e-Courts
+
+![](../resources/e_courts_vars.png)
+
+The entire list of indicators that can be accessed via e-Courts can be seen at this [link](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
+
+---
+class: centre, middle
+
+# Part 2 - How we used data from e-Courts to track POCSO Act in Assam
+
+---
+
+# About the project
+
+- We collaborated with [HAQ - Centre for Child Rights](https://www.haqcrc.org/) to track the implementation of the POCSO Act in Assam, Delhi and Haryana.
+- The project was part of the grant received via the Data for Justice challenge organised by [Agami](https://agami.in/)
+- The main source of data for research is cases uploaded on the **e-Courts web portal for district courts**. Cases for eight years starting 2012 to 2020 have been considered. 
+- We were able to create a dataset of **19,783** cases. Out of which, **5,786** (**29%**) cases are from Assam.
+- In data collected for Assam, **2,706** (46%) cases were disposed and **3,080** were pending during the time of data collection. 
+- Judgments were available in **1,152** (42%) of disposed cases. 
+
+---
+class: centre, middle
+
+# Assam - Factsheet
+
+---
+
+class: centre, middle
+
+# Part 3 - Way Forward. What's next.  
+
+---
+
+# Court data is powerful but limited
+
+
+---
+
+# Taking this work ahead
+
+1. Discussion with stakeholders on how this information can be used by them for advocacy and other purposes. 
+
+2. Sharing our recommendations with the e-Committee of the Supreme Court of India on how can the e-Courts platform be updated for enhancing information capture and retrieval
+
+3. Collaborating with researchers to identify steps that can be taken by courts to share information related to POCSO cases without compromising anyone's identity
+
+4. Finding ways to collaborate with the Child Protection Commissions, Legal Aid authorities, etc on enhancing their internal data capacity to improve the state of data which is captured by their internal systems.
+
+---
+
+# List of Resources
+
+
+---
+
+# We need your feedback
+
+1. On how we can help other stakeholders in using the data generated from this exercise
+
+2. Are their specific data gaps within POCSO that we should work towards ?

@@ -80,3 +80,6 @@ knitr::opts_chunk$set(
 
 5. Districts that seem to be doing better than others on all three counts, viz. court caseload, pendency and disposal are Dibrugarh, Chirang, Dhemaji, Lakhimpur and Udalguri.
 
+---
+
+Back to slide deck - [Using Data to understand the state of child-protection legislation in Assam.](https://civicdatalab.in/DataDialogues-Assam/slide-deck/tracking-pocso.html#38)

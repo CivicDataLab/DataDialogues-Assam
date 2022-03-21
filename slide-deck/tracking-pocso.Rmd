@@ -36,10 +36,15 @@ class: centre, middle
 It leads to:
 
 1. Institutional Accountability
+--
 2. Identification of gaps and challenges in law enforcement practices by various departments
+--
 3. Data driven, evidence based amendments to laws and policies
-4. Better impact assessment of laws 
+--
+4. Better impact assessment of laws
+--
 5. Efficient courts
+--
 6. **Timely Justice**
 
 ---
@@ -53,14 +58,84 @@ It leads to:
 5. The latest data available on the NCRB website is from 2020.  
 
 ---
+class: center, middle
 
 # Child Protection indicators in the NCRB dataset
 
-For Persons Arrested
+---
 
-For Courts
+# Indicators - For Persons Arrested
 
-For Police
+- Persons Arrested
+- Persons Charge sheeted
+- Persons Convicted
+- Persons Discharged
+- Persons Acquitted		
+
+---
+
+# Indicators - For Courts
+
+.pull-left[
+- Cases Pending Trial from the Previous Year,
+- Cases Sent for Trial during the year,
+- Total Cases for Trial,
+- Cases Abated by Court,
+- Cases Withdrawn from Prosecution,
+- Cases Compounded or Compromised	
+- Cases Disposed off by Plea Bargaining	
+- Cases Quashed
+- Cases Disposed off without trial
+- Cases Stayed or Sent to Record Room
+]
+
+.pull-right[
+- Cases Convicted Out of Cases from Previous Year	
+- Cases Convicted Out of Cases during the Year	
+- Cases Convicted
+- Cases Discharged	
+- Cases Acquitted
+- Cases which Trials were Completed 
+- Cases Disposed off by Courts
+- Cases Pending Trial at End of the Year
+- Conviction Rate 
+- Pendency Percentage
+]
+
+---
+
+# Indicators - For Police
+
+.pull-left[
+- Cases Pending Investigation from Previous Year
+- Cases Reported during the year
+- Cases Reopened for Investigation
+- Total Cases for Investigation 
+- Cases Not Investigated Under 157_1_b CRPC
+- Cases Transferred to Other State or Agency
+- Cases Withdrawn by the Govt during Investigation	
+]
+
+.pull-right[
+- Charge Sheets Submitted
+- Total Cases Disposed Off by Police 
+- Cases Quashed at Investigation Stage	
+- Cases Stayed at Investigation Stage	
+- Cases Pending Invsgn.at end of the year
+- Chargesheeting Rate 
+- Pendency Percentage
+]
+
+---
+
+# Indicators - For Police (Contd.)
+
+- Cases Ended as FR Non Cognizable
+- Cases Ended as Final Report False	Cases Ended as Mistake of Fact or of law or Civil Dispute
+- Cases True but Insufficient Evidence or Untraced or No Clue	
+- Cases Abated during Investigation	Total
+- Cases Charge sheeted Out of cases From Prev. Year	
+- Cases Charge sheeted Out of Cases during the year	Cases Charge sheeted
 
 ---
 
@@ -68,21 +143,32 @@ For Police
 
 .pull-left[
 
-**Where it helps**
+.center[**Where it helps**]
+
+1. The only official source of crime statistics in the country
+2. To understand larger patterns of crime within a geography
+3. Disaggregated data, at the district levels, might be available through the State Crime Records Bureau.
+4. Data is available in machine readable formats
+5. A few indicators are available for several years. This helps in identifying trends over a period of time.
+6. Data is available in Hindi and English. 
 
 ]
 
 .pull-right[
 
-- Principal offence rule
-**Where it doesn't**
+.center[**Where it doesn't**]
 
+1. Frequent changes in the methodology for capturing data for certain indicators. This makes it difficult to compare indicators across years.
+2. The exact methodology to capture each indicator is not documented.
+3. Data is available after a gap of at-least an year and sometime more.
+4. Data not available for all states and districts.
+5. Disaggregated data, at the police station level, is hard to procure.
 
 ]
 
 ---
 
-# Other public data sources can be used to track laws
+# Other data sources can be used to track laws
 
 Data maintained by courts is an important resource that can help us track laws
 
@@ -101,10 +187,15 @@ A few important features of data maintained by courts:
 The data from courts is a useful resource but to really be able to use it, one has to face multiple challenges. These are: 
 
 1. Accessing or downloading cases in bulk
+--
 2. Data curation practices differ across courts and hence the data is not standaridsed
+--
 3. Hard to identify cases registered under a particular act or section beucase of data standardisation issues
+--
 4. The dataset especially the orders and judgets, if available, might contain a lot of sensitive information which makes it harder for anyone to share this dataset as a common resource
-5. Data completeness related issues - A lot of times, important fields are not available. 
+--
+5. Data completeness related issues - A lot of times, data is not available for certain important fields like police station details, reason for adjournments, etc. 
+--
 6. Information for older cases might be harder to obtain for certain courts. 
 
 ---
@@ -114,7 +205,7 @@ class: center, middle
 
 ![](../resources/e_courts_vars.png)
 
-The entire list of indicators that can be accessed via e-Courts can be seen at this [link](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
+The entire list of indicators, available for each case on e-Courts, can be seen at this [link](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
 
 ---
 class: centre, middle
@@ -126,20 +217,25 @@ class: centre, middle
 # About the project
 
 - We collaborated with [HAQ - Centre for Child Rights](https://www.haqcrc.org/) to track the implementation of the POCSO Act in Assam, Delhi and Haryana.
+--
 - The project was part of the grant received via the Data for Justice challenge organised by [Agami](https://agami.in/)
-- The main source of data for research is cases uploaded on the **e-Courts web portal for district courts**. Cases for eight years starting 2012 to 2020 have been considered. 
+--
+- The main source of data for research is cases uploaded on the **e-Courts web portal for district courts**. Cases for eight years starting 2012 to 2020 have been considered.
+--
 - We were able to create a dataset of **19,783** cases. Out of which, **5,786** (**29%**) cases are from Assam.
-- In data collected for Assam, **2,706** (46%) cases were disposed and **3,080** were pending during the time of data collection. 
+--
+- In data collected for Assam, **2,706** (46%) cases were disposed and **3,080** were pending during the time of data collection.
+--
 - Judgments were available in **1,152** (42%) of disposed cases. 
 
 ---
-class: centre, middle
+class: center, middle
 
 # Assam - Factsheet
 
 ---
 
-class: centre, middle
+class: center, middle
 
 # Part 3 - Way Forward. What's next.  
 
@@ -147,6 +243,29 @@ class: centre, middle
 
 # Court data is powerful but limited
 
+1. With limited indicators and unavailability of orders and judgments for cases, it is hard to understand several legal aspects of proceeding, acquittal, conviction, and bail.
+
+--
+
+2. Important indicators like time taken to file a chargesheet are not available in the e-Courts database
+
+--
+
+3. Time taken from cognizance to completion of child's testimony is not captured in the system. 
+
+--
+
+4. Reasons for adjournments are not captured properly.
+
+--
+
+5. No details mentioned around interim or final compensation to the victims. The time it takes for court to grant interim compensation is also not known. 
+
+--
+
+6. Other important indicators around **Shelter and Witness** protection support, **Medical Support**, **Educational support**, **paralegal support**, etc are not captured
+
+To really understand how each and every POCSO case is dealt with is currently impossible. Data coming from Police and Courts are important components but they don't tell the complete story. Without data coming in from other systems as well, it will be hard to design initiatives that lead to better implementation of these laws.  
 
 ---
 
@@ -154,21 +273,47 @@ class: centre, middle
 
 1. Discussion with stakeholders on how this information can be used by them for advocacy and other purposes. 
 
+--
+
 2. Sharing our recommendations with the e-Committee of the Supreme Court of India on how can the e-Courts platform be updated for enhancing information capture and retrieval
+
+--
 
 3. Collaborating with researchers to identify steps that can be taken by courts to share information related to POCSO cases without compromising anyone's identity
 
+--
+
 4. Finding ways to collaborate with the Child Protection Commissions, Legal Aid authorities, etc on enhancing their internal data capacity to improve the state of data which is captured by their internal systems.
+
 
 ---
 
-# List of Resources
+# All Resources
 
+.pull-left[
+<br>
+.center[.card[
+![](resources/jh-logo-stacked-color.jpg)
+.small[[https://bit.ly/jh-pocso](https://bit.ly/jh-pocso)]
+]
+]
+]
+
+.pull-right[
+<br>
+[Research Report](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/9377bdfc-b723-4617-a74c-9ae508ebe3f3) 
+<hr>
+[Datasets](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/f667d254-0f39-4bd3-8f6a-e3043d0991f1)
+<hr>
+[Data Codebook](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
+<hr>
+[Assam - Factsheet](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/7d6ac0bf-89b2-4630-81eb-30c97c2b6419)
+]
 
 ---
 
 # We need your feedback
 
-1. On how we can help other stakeholders in using the data generated from this exercise
+1. How can we support other stakeholders in using the data generated from this exercise or scale this
 
 2. Are their specific data gaps within POCSO that we should work towards ?

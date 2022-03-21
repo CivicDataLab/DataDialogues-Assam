@@ -1,5 +1,5 @@
 ---
-title: "Tracking the implementation of the POCSO Act"
+title: "Using data to understand the state of child-protection legislation in Assam"
 subtitle: ""
 author: "Apoorv Anand"
 institute: "CivicDataLab"
@@ -415,6 +415,12 @@ Without robust data coming in from other systems as well, it will be hard to des
 2. How we can support other stakeholders for better tracking and monitoring of child protection legislation in Assam?
 
 ---
+
+class: center, middle
+
+# Thank you!
+
+
 
 
 

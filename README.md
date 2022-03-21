@@ -1,6 +1,11 @@
 # DataDialogues-Assam
 Slide decks for the Data Dialogues event in Guwahati, Assam [March 21-22, 2022]
 
-### Links
+-----
 
-[Slide Deck](slide-deck/tracking-pocso.html) - Data Dialogues - Assam 
+:spiral_calendar: March 21, 2022  
+:alarm_clock:     014:00 - 15:30  
+:hotel:           Room 102, Assam Administrative Staff College 
+:writing_hand:    [https://bit.ly/data-dialogues-pocso](https://bit.ly/data-dialogues-pocso) 
+
+-----

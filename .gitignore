@@ -40,3 +40,6 @@ vignettes/*.pdf
 
 # Event planning files
 planning/
+
+# Reference files
+slide-deck/xaringan-sample*

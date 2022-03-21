@@ -6,8 +6,10 @@ institute: "CivicDataLab"
 date: "2022/03/20 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: ["xaringan-themer.css","libs/custom.css"]
     lib_dir: libs
     nature:
+      ratio: 16:9
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -25,49 +27,88 @@ xaringanExtra::use_fit_screen()
 xaringanExtra::use_tile_view()
 ```
 
-class: centre, middle
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+
+style_mono_accent(base_color = "#479A91",colors = c(
+  red = "#f34213",
+  purple = "#3e2f5b",
+  orange = "#ff8811",
+  green = "#136f63",
+  white = "#FFFFFF"
+))
+# ,
+#   text_font_google   = google_font("Oxygen", "300", "300i")
+```
+
+![](../resources/title-slide.png)
+
+---
+class: center, middle
 
 # Part 1 - Tracking laws using data
 
 ---
 
-# Tracking child protection related legislation
+# Why Track ?
 
-It leads to:
+Because it might lead to:
 
 1. Institutional Accountability
+
 --
+
 2. Identification of gaps and challenges in law enforcement practices by various departments
+
 --
+
 3. Data driven, evidence based amendments to laws and policies
+
 --
+
 4. Better impact assessment of laws
+
 --
+
 5. Efficient courts
+
 --
+
 6. **Timely Justice**
 
 ---
 
-# Data for tracking child-protection related laws
+# Using data to track child-protection laws
 
 1. The [Crime in India](https://ncrb.gov.in/en/crime-india) reports released by the National Crime Records Bureau are an important resource for researchers
-2. The datasets are made available to the public via NCRB's website and also through [data.gov.in](https://data.gov.in/) 
+
+--
+
+2. The datasets are made available to the public via NCRB's website and also through [data.gov.in](https://data.gov.in/)
+
+--
+
 3. The indicators within these datasets are aggregated at a state and district level and are also made available for certain metropolitan cities
+
+--
+
 4. NCRB started computing data for cases registered under the POCSO Act from 2014 onwards
+
+--
+
 5. The latest data available on the NCRB website is from 2020.  
 
 ---
 class: center, middle
 
-# Child Protection indicators in the NCRB dataset
+# POCSO related indicators in the NCRB dataset
 
 ---
 
 # Indicators - For Persons Arrested
 
 - Persons Arrested
-- Persons Charge sheeted
+- Persons Chargesheeted
 - Persons Convicted
 - Persons Discharged
 - Persons Acquitted		
@@ -77,12 +118,12 @@ class: center, middle
 # Indicators - For Courts
 
 .pull-left[
-- Cases Pending Trial from the Previous Year,
-- Cases Sent for Trial during the year,
-- Total Cases for Trial,
-- Cases Abated by Court,
-- Cases Withdrawn from Prosecution,
-- Cases Compounded or Compromised	
+- Cases Pending Trial from the Previous Year
+- Cases Sent for Trial during the year
+- Total Cases for Trial
+- Cases Abated by Court
+- Cases Withdrawn from Prosecution
+- Cases Compounded or Compromised
 - Cases Disposed off by Plea Bargaining	
 - Cases Quashed
 - Cases Disposed off without trial
@@ -92,7 +133,6 @@ class: center, middle
 .pull-right[
 - Cases Convicted Out of Cases from Previous Year	
 - Cases Convicted Out of Cases during the Year	
-- Cases Convicted
 - Cases Discharged	
 - Cases Acquitted
 - Cases which Trials were Completed 
@@ -110,18 +150,17 @@ class: center, middle
 - Cases Pending Investigation from Previous Year
 - Cases Reported during the year
 - Cases Reopened for Investigation
-- Total Cases for Investigation 
 - Cases Not Investigated Under 157_1_b CRPC
 - Cases Transferred to Other State or Agency
 - Cases Withdrawn by the Govt during Investigation	
 ]
 
 .pull-right[
-- Charge Sheets Submitted
+- ChargeSheets Submitted
 - Total Cases Disposed Off by Police 
 - Cases Quashed at Investigation Stage	
 - Cases Stayed at Investigation Stage	
-- Cases Pending Invsgn.at end of the year
+- Cases Pending Investigation at end of the year
 - Chargesheeting Rate 
 - Pendency Percentage
 ]
@@ -133,9 +172,9 @@ class: center, middle
 - Cases Ended as FR Non Cognizable
 - Cases Ended as Final Report False	Cases Ended as Mistake of Fact or of law or Civil Dispute
 - Cases True but Insufficient Evidence or Untraced or No Clue	
-- Cases Abated during Investigation	Total
+- Cases Abated during Investigation
 - Cases Charge sheeted Out of cases From Prev. Year	
-- Cases Charge sheeted Out of Cases during the year	Cases Charge sheeted
+- Cases Charge sheeted Out of Cases during the year	
 
 ---
 
@@ -168,71 +207,117 @@ class: center, middle
 
 ---
 
-# Other data sources can be used to track laws
+# Other data sources for tracking laws
 
-Data maintained by courts is an important resource that can help us track laws
+.center[.bg-green[.white[
+_Data maintained by courts is an important resource that can help us track laws_
+]
+]
+]
+
+--
 
 A few important features of data maintained by courts:
 
+--
+
 1. **Granularity** - Data is available for each case
+
 2. **Timeliness** - Data is available on a near real-time basis
+
 3. **Coverage** - Data is available in a standard format across all courts
+
 4. **Ease of access** - Data for any case can be easily accessed through the e-Courts portal
+
 5. **Availability of tools and resources** - Platforms like the [National Judicial Data Grid](https://njdg.ecourts.gov.in/njdgnew/index.php) can be used to explore and analyse data curated by courts
 
 ---
 
 # Challenges of accessing data from courts
 
-The data from courts is a useful resource but to really be able to use it, one has to face multiple challenges. These are: 
+.bg-red[
+.white[.center[
+The data from courts is a useful resource but is not as accessible.]]]
 
 1. Accessing or downloading cases in bulk
+
 --
+
 2. Data curation practices differ across courts and hence the data is not standaridsed
+
 --
-3. Hard to identify cases registered under a particular act or section beucase of data standardisation issues
+
+3. Hard to identify cases registered under a particular act or section because of data standardisation issues
+
 --
-4. The dataset especially the orders and judgets, if available, might contain a lot of sensitive information which makes it harder for anyone to share this dataset as a common resource
+
+4. The dataset, especially orders and judgments, if available, might contain a lot of sensitive information which makes it harder for anyone to share this dataset as a common resource
+
 --
+
 5. Data completeness related issues - A lot of times, data is not available for certain important fields like police station details, reason for adjournments, etc. 
+
 --
-6. Information for older cases might be harder to obtain for certain courts. 
+
+6. Information for older cases might be harder to obtain from certain courts. 
+
+---
+
+# Case indicators on e-Courts
+
+.center[.middle[.card[
+[![](../resources/e_courts_vars.png)](https://github.com/CivicDataLab/DataDialogues-Assam/blob/main/resources/e_courts_vars.png)
+
+
+[List of indicators](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
+]]]
 
 ---
 class: center, middle
 
-# Indicators available for each case on e-Courts
-
-![](../resources/e_courts_vars.png)
-
-The entire list of indicators, available for each case on e-Courts, can be seen at this [link](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/84cdbe15-371c-4951-8079-79fe48df2df2) 
-
----
-class: centre, middle
-
-# Part 2 - How we used data from e-Courts to track POCSO Act in Assam
+# How we used data from e-Courts to track POCSO Act in Assam
 
 ---
 
 # About the project
 
 - We collaborated with [HAQ - Centre for Child Rights](https://www.haqcrc.org/) to track the implementation of the POCSO Act in Assam, Delhi and Haryana.
+
 --
+
 - The project was part of the grant received via the Data for Justice challenge organised by [Agami](https://agami.in/)
+
 --
+
 - The main source of data for research is cases uploaded on the **e-Courts web portal for district courts**. Cases for eight years starting 2012 to 2020 have been considered.
+
 --
+
 - We were able to create a dataset of **19,783** cases. Out of which, **5,786** (**29%**) cases are from Assam.
+
 --
+
 - In data collected for Assam, **2,706** (46%) cases were disposed and **3,080** were pending during the time of data collection.
+
 --
+
 - Judgments were available in **1,152** (42%) of disposed cases. 
 
 ---
-class: center, middle
 
 # Assam - Factsheet
 
+.center[
+.middle[
+.card[
+
+[![](../resources/assam-map.png)](https://justicehub.in/dataset/data4justice-unpacking-judicial-data-to-track-implementation-of-the-pocso-act-in-assam-delhi-haryana/resource/7d6ac0bf-89b2-4630-81eb-30c97c2b6419)
+
+[View Here](factsheet.html)
+
+]
+]
+]
 ---
 
 class: center, middle
@@ -265,7 +350,18 @@ class: center, middle
 
 6. Other important indicators around **Shelter and Witness** protection support, **Medical Support**, **Educational support**, **paralegal support**, etc are not captured
 
-To really understand how each and every POCSO case is dealt with is currently impossible. Data coming from Police and Courts are important components but they don't tell the complete story. Without data coming in from other systems as well, it will be hard to design initiatives that lead to better implementation of these laws.  
+---
+class: center, middle
+
+# We need more indicators
+
+.bg-purple[.white[
+To really understand how each and every POCSO case is dealt with is currently impossible. Data coming from Police and Courts are important components but they don't tell the complete story. 
+
+Without robust data coming in from other systems as well, it will be hard to design initiatives that lead to better implementation of these laws.
+
+]
+]
 
 ---
 
@@ -291,10 +387,10 @@ To really understand how each and every POCSO case is dealt with is currently im
 # All Resources
 
 .pull-left[
-<br>
 .center[.card[
-![](resources/jh-logo-stacked-color.jpg)
-.small[[https://bit.ly/jh-pocso](https://bit.ly/jh-pocso)]
+![](../resources/jh-logo-stacked-color.jpg)
+
+[https://bit.ly/jh-pocso](https://bit.ly/jh-pocso)
 ]
 ]
 ]
@@ -312,8 +408,13 @@ To really understand how each and every POCSO case is dealt with is currently im
 
 ---
 
-# We need your feedback
+# We need your support and feedback
 
-1. How can we support other stakeholders in using the data generated from this exercise or scale this
+1. How data can address important gaps and challenges faced stakeholders in implementing the POCSO Act?
 
-2. Are their specific data gaps within POCSO that we should work towards ?
+2. How we can support other stakeholders for better tracking and monitoring of child protection legislation in Assam?
+
+---
+
+
+

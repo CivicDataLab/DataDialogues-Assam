@@ -22,6 +22,8 @@ class: center, middle, inverse, title-slide
 
 ---
 
+class: hide-logo
+
 
 <div>
 <style type="text/css">.xaringan-extra-logo {
@@ -44,7 +46,7 @@ top:1em;right:1em;
         setTimeout(addLogo, 100)
       }
     } else {
-      document.querySelectorAll('.remark-slide-content')
+      document.querySelectorAll('.remark-slide-content:not(.hide-logo)')
         .forEach(function (slide) {
           const logo = document.createElement('a')
           logo.classList = 'xaringan-extra-logo'
@@ -63,6 +65,10 @@ top:1em;right:1em;
 
 
 
+
+![](../../resources/title-slide-public-data.png)
+
+---
 
 # Session Structure
 

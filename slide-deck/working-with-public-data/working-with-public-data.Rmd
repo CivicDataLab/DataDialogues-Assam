@@ -13,9 +13,11 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: hide-logo
+
 
 ```{r xaringan-logo, echo=FALSE}
-xaringanExtra::use_logo("https://drive.google.com/uc?id=1WbdosVvi6SBjYtEF6kHj-f0wotdHMRgw",link_url = "https://civicdatalab.in",exclude_class = NULL)
+xaringanExtra::use_logo("https://drive.google.com/uc?id=1WbdosVvi6SBjYtEF6kHj-f0wotdHMRgw",link_url = "https://civicdatalab.in",exclude_class = c("hide-logo"))
 ```
 
 ```{r xaringan-fit-screen, echo=FALSE}
@@ -37,6 +39,10 @@ style_mono_accent(base_color = "#3F88C5",colors = c(
   white = "#FFFFFF"
 ))
 ```
+
+![](../../resources/title-slide-public-data.png)
+
+---
 
 # Session Structure
 

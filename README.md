@@ -2,6 +2,7 @@
 Slide decks for the Data Dialogues event in Guwahati, Assam [March 21-22, 2022]
 
 -----
+:file:            Using data to understand the state of child-protection legislation in Assam
 
 :spiral_calendar: March 21, 2022  
 
@@ -12,6 +13,8 @@ Slide decks for the Data Dialogues event in Guwahati, Assam [March 21-22, 2022]
 :writing_hand:    [https://bit.ly/data-dialogues-pocso](https://bit.ly/data-dialogues-pocso)
 
 -----
+
+:file:            Working with Public Datasets
 
 :spiral_calendar: March 22, 2022  
 

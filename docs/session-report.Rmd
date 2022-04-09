@@ -1,0 +1,22 @@
+---
+title: "Data Dialogues | Session Report"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Using data to understand the state of child-protection legislation in Assam
+
+**Objective**
+
+**Panelists** 
+
+**Discussion Summary**
+
+**Conclusion**
+
+**Way forward**
+
+**Resources**

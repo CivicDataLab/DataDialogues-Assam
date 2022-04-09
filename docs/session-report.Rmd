@@ -11,7 +11,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Objective**
 
-**Panelists** 
+The core child protection legislation for children is enshrined in four main laws around Juvenile Justice, Child Marriage Prohibition, Protection of Children from Sexual Offences, and Child Labour.
+
+The vast legal framework on child rights is unfortunately not backed with data that can inform law and policy change. It is quite difficult to access systematic information on what happens in courts, how special laws and provisions pan out in practice, to what extent have they been able to meet their purpose, etc. To better understand the gaps and challenges in the implementation of these laws, we need more granular datasets at various administrative levels that can be accessed by various stakeholders.
+
+The objective of this discussion was to understand the current state of child protection data ecosystem in Assam and to discuss the steps that can be taken to create and curate FAIR (Findable, Accessible, Interoperable, Reusable) datasets. 
+
+**Panelists**
+
+1. D. Savio Lakra 
+
+He is the Programme Manager,Training, IEC & Advocacy at State child protection society, Social Welfare Department, Government of Assam. His team has developed the first version of the Child Protection Index for Assam. The index is created using 33 indicators that fall under 3 broad dimensions which are Results for children, Human Resource and ICPS structure and functionality.  
+
+2. Miguel Das 
+
+He is the founder and executive director of Universal Team for Social Action and Help (UTSAH). UTSAH is a Guwahati based NGO which works for child rights particularly those affected by sexual violence in Assam. His organisation has provided end-to-end psychological and legal assistance to child survivors and provided immersive child safety training to over 2 lakh children across schools and communities in ssam. Miguel has also trained and mentored over 500 police personnel in child protection practices and played an instrumental role in designing the Assam Police Sishu Mitra Programme, a child-friendly policing and police reform initiative. 
+
+3. Apoorv Anand - Program Lead, Law and Justice - CivicDataLab
+
 
 **Discussion Summary**
 
@@ -20,3 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
 **Way forward**
 
 **Resources**
+
+1. Session poster - 
+2. Slide Deck - Using data to understand the state of child-protection legislation in Assam - https://bit.ly/data-dialogues-pocso
+3. Slide Deck - 

@@ -1,13 +1,24 @@
 ---
-title: "Using data to understand the state of child-protection laws in Assam"
 output: 
-  github_document:
-    toc: true
+  github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+<h1 align="center">Using data to understand the state of child-protection laws in Assam</h1>
+<p align="center"> Data Dialogues Assam - Panel Discussion</p>
+
+- [Objective](#objective)
+- [Panelists](#panelists)
+- [Discussion Summary](#discussion-summary)
+    - [Key points by D. Savio Lakra on the ICPS dashboard, developed by the State Child Protection Society.](#key-points-by-d.-savio-lakra-on-the-icps-dashboard,-developed-by-the-state-child-protection-society.)
+    - [Key points shared by Miguel on the state of POCSO in Assam](#key-points-shared-by-miguel-on-the-state-of-pocso-in-assam)
+    - [How to use data to track the implementation of child protection laws](#how-to-use-data-to-track-the-implementation-of-child-protection-laws)
+- [Concluding Remarks](#concluding-remarks)
+- [Way forward](#way-forward)
+- [Resources](#resources)
 
 ### Objective
 

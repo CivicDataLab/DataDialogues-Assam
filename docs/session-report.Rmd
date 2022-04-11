@@ -1,5 +1,4 @@
 ---
-title: "Data Dialogues | Session Report"
 output: github_document
 ---
 
@@ -7,7 +6,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Using data to understand the state of child-protection legislation in Assam
+<h1 align="center">Using data to understand the state of child-protection laws in Assam</h1>
+<p align="center"> Data Dialogues Assam - Panel Discussion</p>
 
 ### Objective
 
@@ -17,7 +17,7 @@ Unfortunately, the vast legal framework on child rights is not backed with data 
 
 To better understand the gaps and challenges in the implementation of these laws, we need more granular datasets at various administrative levels that can be accessed by various stakeholders.
 
-This report is a summary of the presentations, discussions, and recommendations made by the participants, on the current state of the child protection data ecosystem in Assam, during the Data Dialogues event organised by CivicDataLab in collaboration with data.gov.in on March 21st and 22nd, 2022. 
+This report is a summary of the presentations, discussions, and recommendations made by the participants, on the current state of the child protection data ecosystem in Assam, during the **Data Dialogues** event organised by CivicDataLab in collaboration with data.gov.in on March 21st and 22nd, 2022. 
 
 ### Panelists
 
@@ -31,6 +31,7 @@ This report is a summary of the presentations, discussions, and recommendations 
 
 3. Apoorv Anand - Program Lead, Law and Justice - CivicDataLab
 
+
 ### Discussion Summary
 
 #### Key points by D. Savio Lakra on the ICPS dashboard, developed by the State Child Protection Society.
@@ -39,13 +40,13 @@ The SCPS is a statutory body present in all states to implement and track ICPS. 
 
 On the dashboard front, we have the map of Assam on which the districts are ranked as per their performance on respective indicators. This helps us to follow up with districts that are not performing well on certain parameters. The dashboard still lacks a lot of important indicators. We're planning to add more indicators in the next phase of the project. There are a few reports that get generated on a periodic basis on the state of child protection services. We would like to integrate these reports as well within the same platform.
 
-_Summary of the challenges faces in developing and maintaining the dashboard_
+**Challenges faced in developing and maintaining the dashboard**
 
 1. No dedicated data analyst in the team - Data curation takes up a lot of manual effort and takes a lot of time. We need better systems in place and dedicated support for data curation and data analysis to be able to get the most out of this initiative.
 
 2. Availability of funds for further development - The first phase of the project was funded by UNICEF. We don't have funds under dedicated budget heads within our budgets for us to sustain this initiative. We can't divert funds from other budget heads to work on building the platform.
 
-_Next steps for us_
+**Next steps for us**
 
 We get enquired by various stakeholders who want access to data related to child protection services. Currently, the platform has only a few aggregated indicators. In the next phase of the project, we would like to add more sources of information so that some of the data related enquiries can be served from the platform itself. Also, we need increase access to a more indicators so we can have a holistic understanding on the state of child protection in Assam. 
 
@@ -53,12 +54,12 @@ Till now we have had a good experience in building this dashboard. Adding more i
 
 #### Key points shared by Miguel on the state of POCSO in Assam
 
-_Challenges we face in our line of work_
+**Challenges we face in our line of work**
 
 1. No data in the first place for us to analyse
 2. Special laws like the JJ Act and POCSO are handled by a lot of different institutions like the Police Department, CWC, District legal services authority, the courts, etc. Currently, there is no common systems or interface that connects all of them. This creates a lot of discrepancies in the data reported by all of them.
 
-_Through our work, we ensure that the focus is on the procedure_
+**Through our work, we ensure that the focus is on the procedure**
 
 1. We work with the Assam police to help them understand the procedures and the difference in procedures when it comes to special laws like the JJ Act, POCSO, etc.
 2. It is not easy for them to understand the procedures as they usually work within the CrPC/IPC framework and special acts come with their own sets of procedures.
@@ -71,19 +72,19 @@ _Through our work, we ensure that the focus is on the procedure_
 9. A lot of times, children are called at police stations for recording of the statement under section 161 of the CrPC. Ideally, this should be done at the child's residence or a place where they are comfortable. We have to tell the police officials to not call the children at the police station.
 10. We usually look at justice delivery just in terms of numbers, as in the number of cases filed, but the quality of case diaries is often terrible.
 
-_Other challenges linked with child protection services_
+**Other challenges linked with child protection services**
 
 1. No direct information about the fund availability within institutions. This creates a lot of hurdles when we have to get interim compensations or special relief for affected children. 
 2. We don't have any qualitative indicators on the tial of cases in courts.
 3. Funding crunch in the overall child protection umbrella throughout the country. The overall budget of child protection has decreased after Mission VATSALYA was launched.
 
-_Next steps_
+**Next steps for us**
 
 1. We are partnering with UNICEF on developing a Sishu Mitra Program where we will help the police department setup an integrated centre of child rights. Here, the police HQ's will provide technical assistance to the IO's. Our focus here is to track the implementation of the POCSO act qualitatively (procedural implementation)
 
 2. In our cases, we have started to document experiences of children and we will work with the police to discuss these extensively.
 
-_Our Recomendations_
+**Our Recomendations**
 
 1. Investment on data is very important because that is what informs policy.
 2. There should be a common data management system at every stage of justice delivery and every stage should be connected to the other.  
@@ -92,6 +93,7 @@ _Our Recomendations_
 #### How to use data to track the implementation of child protection laws
 
 Apoorv shared a presentation on how data from courts can be used to track the implementation of laws. He talked about:
+
 1. The importance of tracking laws.
 2. Using data from sources like the NCRB and its limitations.
 3. POCSO related indicators in the NCRB - Crime in India dataset.
@@ -121,3 +123,5 @@ Apoorv shared a presentation on how data from courts can be used to track the im
 2. Slide Deck - Using data to understand the state of child-protection legislation in Assam - https://bit.ly/data-dialogues-pocso
 3. Datasets and Report on the JusticeHub - https://bit.ly/jh-pocso
 4. Session video - https://youtu.be/BmeTLuzUEwQ
+
+---

@@ -1,13 +1,13 @@
 ---
-output: github_document
+title: "Using data to understand the state of child-protection laws in Assam"
+output: 
+  github_document:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-<h1 align="center">Using data to understand the state of child-protection laws in Assam</h1>
-<p align="center"> Data Dialogues Assam - Panel Discussion</p>
 
 ### Objective
 

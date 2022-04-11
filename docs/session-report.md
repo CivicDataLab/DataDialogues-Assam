@@ -1,10 +1,12 @@
-
-<h1 align="center">
 Using data to understand the state of child-protection laws in Assam
-</h1>
-<p align="center">
-Data Dialogues Assam - Panel Discussion
-</p>
+================
+
+-   [Objective](#objective)
+-   [Panelists](#panelists)
+-   [Discussion Summary](#discussion-summary)
+-   [Concluding Remarks](#concluding-remarks)
+-   [Way forward](#way-forward)
+-   [Resources](#resources)
 
 ### Objective
 

@@ -12,6 +12,8 @@ Slide decks for the Data Dialogues event in Guwahati, Assam [March 21-22, 2022]
 
 :writing_hand:    [https://bit.ly/data-dialogues-pocso](https://bit.ly/data-dialogues-pocso)
 
+📰                [Session Report](docs/session-report.md)
+
 -----
 
 :arrow_right:     Working with Public Datasets

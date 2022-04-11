@@ -19,25 +19,111 @@ The objective of this discussion was to understand the current state of child pr
 
 **Panelists**
 
-1. D. Savio Lakra 
+1. D. Savio Lakra
 
 He is the Programme Manager,Training, IEC & Advocacy at State child protection society, Social Welfare Department, Government of Assam. His team has developed the first version of the Child Protection Index for Assam. The index is created using 33 indicators that fall under 3 broad dimensions which are Results for children, Human Resource and ICPS structure and functionality.  
 
-2. Miguel Das 
+2. Miguel Das
 
 He is the founder and executive director of Universal Team for Social Action and Help (UTSAH). UTSAH is a Guwahati based NGO which works for child rights particularly those affected by sexual violence in Assam. His organisation has provided end-to-end psychological and legal assistance to child survivors and provided immersive child safety training to over 2 lakh children across schools and communities in ssam. Miguel has also trained and mentored over 500 police personnel in child protection practices and played an instrumental role in designing the Assam Police Sishu Mitra Programme, a child-friendly policing and police reform initiative. 
 
 3. Apoorv Anand - Program Lead, Law and Justice - CivicDataLab
 
-
 **Discussion Summary**
 
-**Conclusion**
+[Points by Savio]
+
+1. Dashboard to track the state of CPS in Assam
+2. Long way to finalise the sources of data from all corners of Assam
+3. Initial stage of the website
+4. Getting data for 33 indicators from the districts
+5. SCPS is a statutory body present in all states to implement ICPS
+6. Difficult to track in case of newer districts
+7. The current dashboard does not include all new districts
+8. We did not had any data, just some info on child protection issues
+9. Had access to a few aggregated data points like presence of CWC, etc
+10. All districts have a login, through which they can enter the data
+11. Results can be viewed indicator wise
+12. Follow-up and monitoring of districts which are not performing well
+13. We only have limited indicators, not all. We have reports coming in from all districts on child marriage, child labour, etc which are not here
+14. We will be making these reports available in the next phase
+15. Not having a dedicated data analyst is a huge challenge and restricts us from using data in the most appropriate manner
+16. All indicators under JJ rule should be there and the reports should be generated online. We're still working on it.
+17. First phase was supported by UNICEF
+18. We face financial constraints. We get funds only on certain heads and we cannot divert the funds to this work.
+19. On uptake - These indicators are not sufficient to take any action. We have to include more data points and make this more compehensive to make this more useful for CSO's. We often get call from researchers who need data, we would like to serve those requests through the dashboard. 
+20. How do you ensure that the data coming from districts is accurate - We follow a lot of manual process to curate and present these indicators. If we get an analyst on board that will help us focus on different things. 
+21. Overall, we have had a good experience in building this dashboard. Adding more indicators will make it more useful for a lot of stakeholders. This dashboard was highlighted as one of the best practices to be followed by child protection socities throughout the country
+
+[Comment by Apoorv on the meeting with DCPCR]
+
+[HAQ - collaboration story by Apoorv]
+
+[Points by Miguel]
+
+1. There has to be data in the first place so we can analyse
+2. Police Station - CWC - District Legal services authority (for interim compensation) - Trial Court - There is no common connect or interface to input data at all steps
+3. Numbers are different at each step
+4. We're working with the Assam Police and our focus is on the procedure
+5. If the police are reporting the cases that come to the police station to the CWC there is still convergence
+6. We're working with various stakeholders at all levels like DGP, SP of districts, etc
+7. It's difficult to work with the police force, but since we have worked with them for so long we try and have these conversations all the time about the procedure as prescribed in the law
+8. The procedures are not simple. The police usually work within the CRPC/IPC framework. CRPC has been amended for women and childrights. 
+9. Acts like POCSO and JJ come with their own set of procedures which are quite complicated.
+10. We're trying to make sense of the whole thing. When they understand the procedures, there will be better implementation
+11. We're not yet sure how to track if the procedures are been followed
+12. Certain concrete things like cases getting heard in stipulated time can be tracked but how can we track if the IO is interviewing the child as per the Section 39 of the POCSO Act (Model Guidelines) 
+13. For us as an org, it is important to track quality not just quantitative data coming from NCRB
+14. The heart and soul of special acts like POCSO and JJ are the implementation of procedure
+15. The police officers will say that the chargesheets have been filed, but how was the experience of the child who came in contact with the police
+16. [Add insight on children who come in conflict with the law]
+17. Most often that experience is negative. So how we can ensure that there is tracking of that as well. 
+18. There should be qualitative indicators as well. Implementation of procedural law is very important.
+19. Recording of statement under Sec 161 of the CRPC should be conducted in the residence of the child or whereever the child feels comfortable. Most often they are called at the police stattions which they should not do.
+20. Tracking child trafficking is difficult. Most cases are registered under kidnapping and child abduction. Trafficking cases are only identified when there is a rescue and we're not sure where that gets recorded.
+
+What I look forward to:
+1. There should be a common data management system at every stage of justice delivery and stages should be connected to each other.  
+2. Tracking procedural implementation.
+
+21. It's ok to look at justice delivery in terms of numbers, police stations usually have a competition to file maximum cases (KKC - Kaun Katega Chargesheet) but the quality of case diaries is terrible
+22. We're partnering with UNICEF on the Assam Shishu Mitra Programme - where we're trying to help police run an integrated centre of Child Rights where police HQ's will provide tech assistance to IO's. Our focus here is to track the implementation of the POCSO act qualitatively (procedural implementation)
+23. Special Relief - New addition to the POCSO rules - Another data discrepancy is about the availability of funds at each institution. There is no public data about this or the people are quite unaware about the fund flow.
+24. Similarly there is no data on interim compensation and how much funds are available with District Legal Services Authority.
+25. Several times the compensations are granted but the cheques are bounced,
+26. Interim Compensation is very important but it's often delayed which defeats the purpose of helping the children
+27. We also need qualitative indicators on the trial. 
+28. Funding is related to the bigger child crunch nation-wide on child protection.
+29. After VATSALYA, the funding has decreased.[Fact check] 
+30. Investment on data is very important becuase that is what informs policy.
+31. Data discrepancies will lead to policies that are faulty and children suffers at the end.
+32. [Apoorv's comment on the HAQ POCSO Factbook - Qualitative indicators]
+33. A lot of times that data on e-Courts is also not kep up-to-date
+34. Intensive engagement with the judiciary might help.
+35. Meet the Juvenile justice committee and talk to them on some of these issues.
+36. We need conversation at all stages - CWC also manages a lot of cases, SCPS, the state legal services authority. One needs to work at the intersection of these institutions so that there is convergence.
+37. [Question - Can collecting data related to procedures have an adverse impact of the case?]- 
+38. How quantitative and qualitative data should go together?
+39. For us, the focus should be the child and capturing their experience is very important and that is linked to child's right to participate
+40. We have started documenting experiences of children and we will show it to the police
+
+[Points by Apoorv]
+
+**Concluding Remarks**
+
+Savio - We need to collaborate with each other so that there are better systems in place, also to get access to data collected from field. Data is important to showcase if we're working effectively or not. Child should not be lost in the data ecosystems. All systems should be connected at a case level. We should capture the history of the child involved within the system. 
+
+Miguel - We need to have conversation with people who can effectuate. We need to connect with leaders at the departments who can take these decisions. We can help you get connected with the police network. We're trying to have a Sishu Mitra centre at the CID headquarters and that center will need a strong data management system to inform the police. We have a very pro active DGP, also a very proactive commissioner of police at Guwahati City. We can help facilitate these conversations. Secretary of the State Legal Services authority. Meet Justice Singh who is heading the Juvenile Justice committee. We need to work at three levels - Social Welfare, Police and Judiciary
 
 **Way forward**
 
+1. Setup conversations with the leadership
+2. Figure out how this initiative will help them
+3. Maybe a report at the end of the year that showcases how to create a good quality data system to inform state about these acts 
+
 **Resources**
 
-1. Session poster - 
+1. Session poster - https://bit.ly/session-poster-child-protection
 2. Slide Deck - Using data to understand the state of child-protection legislation in Assam - https://bit.ly/data-dialogues-pocso
-3. Slide Deck - 
+3. Session photos
+4. Session videos
